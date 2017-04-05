@@ -1,8 +1,9 @@
 var n = Number(prompt('please input number n in Fibonacci sequence'));
 
-document.write('n-ne fibRec = ' + fibRec(n));
+document.write('The ' + n + ' number in Fibonacci sequence using fibRec = ' + fibRec(n));
 
 function fibRec(n) {
+    
     if (n < 3) {
         return 1;
     }
@@ -20,4 +21,4 @@ function fibLoop(n) {
 
     return a;
 }
-document.write('<br>' + 'n-ne fibLoop = ' + fibLoop(n));
+document.write('<br>' + 'The ' + n + ' number in Fibonacci sequence using fibLoop = ' + fibLoop(n));
