@@ -1,4 +1,4 @@
-var n = Number(prompt('please input number n'));
+var n = Number(prompt('please input number n in Fibonacci sequence'));
 
 document.write('n-ne fibRec = ' + fibRec(n));
 
